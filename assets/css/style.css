@@ -2,7 +2,8 @@
 
 *{
 	font-color: lemonchiffon;
-	font-family: 'Indie Flower', cursive;;
+	font-family: 'Merriweather', serif;
+
 }
 
 #h1{
@@ -12,7 +13,7 @@
 	background-color: #ffffff;
 	float: left;
 	font-size: 36px;
-	border-style: double;
+	text-align: center;
 }
 
 .nav{
@@ -21,6 +22,7 @@
 	width: 250px;
 	padding:20px;
 	border-style: solid;
+	font-color: #777777;
 }
 
 #link1{
@@ -43,10 +45,11 @@
 	padding: 10px;
 	background-color: #ffffff;
 	border-style: solid;
-	float: right;
+	float: left;
 	position: relative;
-	left: 100px;
-	width:960px;
+	left: 10px;
+	width:700px;
+	font-color: #777777;
 }
 
 #bioimage{
@@ -68,9 +71,10 @@
 .connect{
 border: solid;
 background-color: lime;
-width: 200px;
+width: 230px;
+height: 120px;
 margin: 20px;
-float: left;
+float: right;
 text-align: center;
 
 position: relative;
@@ -88,5 +92,53 @@ position: relative;
 }
 .container{
 	width: 1024px;
-  overflow: auto;
+ 
+}
+
+#header{
+	margin: 10px;
+	width: 400px;
+	height: 100px;
+	background-color: #ffffff;
+	float: left;
+	font-size: 36px;
+	text-align: center;
+
+}
+
+#portimg1{
+	float: left;
+	margin: 10px;
+}
+
+#content2{
+	margin:10px;
+	align-self: left
+	border-color: #dddddd;
+	padding: 10px;
+	background-color: #ffffff;
+	border-style: solid;
+	float: left;
+	position: relative;
+	left: 10px;
+	width:700px;
+	height:600px;
+	font-color: #777777;
+
+
+}
+
+#portimg2{
+	float: left;
+	margin: 10px;
+}
+
+#portimg3{
+	float: left;
+	margin: 10px;
+}
+
+#portimg4{
+	float: left;
+	margin: 10px;
 }
